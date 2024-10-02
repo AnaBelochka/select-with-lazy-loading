@@ -1,0 +1,1 @@
+export { ReactComponent as ArrowDownIcon } from './arrow_down.svg'

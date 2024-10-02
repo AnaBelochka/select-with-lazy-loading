@@ -1,0 +1,15 @@
+@import 'src/common/styles/colors';
+
+.fakeInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  background-color: $white;
+  line-height: 20px;
+}
+
+.open {
+  border: 1px solid $blue;
+}

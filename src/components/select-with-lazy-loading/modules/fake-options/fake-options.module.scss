@@ -1,0 +1,40 @@
+@import 'src/common/styles/colors';
+
+.fakeOptions {
+  width: 100%;
+  padding: 4px 0;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  border-radius: 4px;
+  background-color: $white;
+  max-height: 192.5px;
+  overflow-y: scroll;
+
+  .option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    line-height: 16px;
+
+    .letter {
+      display: flex;
+      justify-content: center;
+      width: 20px;
+      padding: 2px;
+      margin-right: 8px;
+      color: $white;
+      border-radius: 50%;
+      background-color: $blue;
+    }
+
+    &:hover {
+      background-color: $very-light-grey;
+    }
+  }
+}
+
+.selected {
+  box-sizing: border-box;
+  border: 2px solid $blue;
+}
